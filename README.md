@@ -99,8 +99,8 @@ View the loading indicator as the bot processes requests.
 Observe the chatbot’s response when products are found or if an error occurs.
 
 ## Future Improvements
-Database Integration: Move from static JSON to a live database.
-User Authentication: Allow personalized recommendations based on user history.
-Voice Command Support: Add voice interaction for a more immersive experience.
-Enhanced NLP: Further optimize chatbot's understanding of queries.
+- Database Integration: Move from static JSON to a live database.
+- User Authentication: Allow personalized recommendations based on user history.
+- Voice Command Support: Add voice interaction for a more immersive experience.
+- Enhanced NLP: Further optimize chatbot's understanding of queries.
 
