@@ -50,11 +50,11 @@ Groupon_AI/
 ---
 
 ## Setup and Installation
-**Prerequisites
+**Prerequisites**
 Node.js (version 14 or higher)
 Git
 
-**Installation Steps
+**Installation Steps**
 1. Clone the Repository:
 ```plaintext
 git clone https://github.com/yourusername/Groupon_AI.git
