@@ -11,7 +11,6 @@ This project is an AI-powered chatbot for Groupon, designed to help users naviga
 4. [Setup and Installation](#setup-and-installation)
 5. [Usage](#usage)
 6. [Future Improvements](#future-improvements)
-7. [License](#license)
 
 ---
 
@@ -47,3 +46,48 @@ Groupon_AI/
 ├── .gitignore                # Specifies which files and directories to ignore
 ├── README.md                 # Project documentation
 └── package.json              # Project dependencies and scripts
+
+
+## Setup and Installation
+**Prerequisites
+Node.js (version 14 or higher)
+Git
+
+**Installation Steps
+1. Clone the Repository:
+git clone https://github.com/yourusername/Groupon_AI.git
+cd Groupon_AI
+
+2. Install Backend Dependencies:
+cd backend
+npm install
+
+3. Install Frontend Dependencies:
+cd ../src
+npm install
+
+4. Set Up Environment Variables:
+In the backend folder, create a .env file with your API key:
+GROQ_API_KEY=your_api_key_here
+
+5. Run the Project:
+Start the backend server:
+cd ../backend
+node index.js
+
+6. Start the frontend server:
+cd ../src
+npm start
+Access the Application: Open your browser and navigate to http://localhost:3000 to start interacting with the chatbot.
+
+## Usage
+Type in questions or product inquiries to see product suggestions, images, and descriptions.
+View the loading indicator as the bot processes requests.
+Observe the chatbot’s response when products are found or if an error occurs.
+
+## Future Improvements
+Database Integration: Move from static JSON to a live database.
+User Authentication: Allow personalized recommendations based on user history.
+Voice Command Support: Add voice interaction for a more immersive experience.
+Enhanced NLP: Further optimize chatbot's understanding of queries.
+
