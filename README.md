@@ -46,7 +46,8 @@ Groupon_AI/
 ├── .gitignore                # Specifies which files and directories to ignore
 ├── README.md                 # Project documentation
 └── package.json              # Project dependencies and scripts
-
+```
+---
 
 ## Setup and Installation
 **Prerequisites
@@ -55,30 +56,42 @@ Git
 
 **Installation Steps
 1. Clone the Repository:
+```plaintext
 git clone https://github.com/yourusername/Groupon_AI.git
 cd Groupon_AI
+```
 
 2. Install Backend Dependencies:
+```plaintext
 cd backend
 npm install
+```
 
 3. Install Frontend Dependencies:
+```plaintext
 cd ../src
 npm install
+```
 
 4. Set Up Environment Variables:
+```plaintext
 In the backend folder, create a .env file with your API key:
 GROQ_API_KEY=your_api_key_here
+```
 
 5. Run the Project:
 Start the backend server:
+```plaintext
 cd ../backend
 node index.js
+```
 
-6. Start the frontend server:
+Start the frontend server:
+```plaintext
 cd ../src
 npm start
-Access the Application: Open your browser and navigate to http://localhost:3000 to start interacting with the chatbot.
+```
+6. Access the Application: Open your browser and navigate to http://localhost:5001 to start interacting with the chatbot.
 
 ## Usage
 Type in questions or product inquiries to see product suggestions, images, and descriptions.
