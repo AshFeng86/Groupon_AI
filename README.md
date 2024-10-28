@@ -41,7 +41,7 @@ Groupon_AI/
 ├── src/                      # Frontend source files
 │   ├── components/           # React components for the chatbot
 │   ├── data                  # Local data (e.g., product data) 
-│   │   ├── products.json     # JSON file with product dummy data
+│   │   └── products.json     # JSON file with product dummy data
 │   └── App.js                # Main React component
 ├── .gitignore                # Specifies which files and directories to ignore
 ├── README.md                 # Project documentation
