@@ -34,14 +34,14 @@ This project is an AI-powered chatbot for Groupon, designed to help users naviga
 Groupon_AI/
 ├── backend/                  # Backend server and API logic
 │   ├── index.js              # Express server and API endpoints
-│   ├── products.json         # JSON file with product dummy data
 │   └── .env                  # Environment variables (not included in repo)
 ├── public/                   # Static files like images
 │   ├── images/               # Product images
 │   └── favicon.ico           # Favicon
 ├── src/                      # Frontend source files
 │   ├── components/           # React components for the chatbot
-│   ├── data/                 # Local data (e.g., product data)
+│   ├── data                  # Local data (e.g., product data) 
+│   │   ├── products.json     # JSON file with product dummy data
 │   └── App.js                # Main React component
 ├── .gitignore                # Specifies which files and directories to ignore
 ├── README.md                 # Project documentation
